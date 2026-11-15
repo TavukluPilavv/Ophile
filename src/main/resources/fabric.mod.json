@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ophile",
+  "version": "${version}",
+  "name": "Ophile",
+  "description": "Server-side utility mod.",
+  "authors": ["Ophile"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.ophile.OphileMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
